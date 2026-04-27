@@ -71,7 +71,7 @@ export default function Home() {
     <main style={{ padding: '40px', maxWidth: '1200px', margin: '0 auto' }}>
       <header style={{ marginBottom: '40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
-          <h1 style={{ fontSize: '2.5rem', background: 'linear-gradient(to right, #6366f1, #ec4899)', WebkitBackgroundClip: 'text', WebkitFillColor: 'transparent' }}>
+          <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', background: 'linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
             NEXUS
           </h1>
           <p style={{ color: 'var(--text-muted)' }}>Bienvenido de nuevo, {user.name}</p>
